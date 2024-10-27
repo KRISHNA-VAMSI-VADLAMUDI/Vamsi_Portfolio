@@ -270,19 +270,17 @@ ul
 {
     margin-right: 15px ;
 }
-.nav li a:hover
-{
-    text-shadow: #504e70;
-    color: var(--skin-color);
-    font-size: 18px;
-    /* opacity: .2; */
-    transition: .2s;
-    /* filter: blur(1px); */
-    transform: scale(1.05);
-    background-image: radial-gradient(rgb(245, 230, 230),rgb(180, 208, 218));
-    border-radius: 50px 10px 50px 10px;
-    border-color: black;
-    border-width: 2px;
+.nav li a:hover {
+    text-shadow: 2px 2px 4px rgba(50, 50, 50, 0.5); /* Soft dark shadow */
+    color: #dbe3e3; /* white text color */
+    font-weight: bold;
+    font-size: 17px;
+    transition: transform 0.8s ease-in-out, background-color 0.2s;
+    transform: scale(1.08) rotateY(360deg);
+    background: var(--skin-color); /* skin color */
+    border: 3px solid white ; /* Medium-dark border */
+    outline: 2px   solid var(--skin-color);
+    
 }
 /* ------------------------------------------------------------------------------------------------- */
 /* home */
